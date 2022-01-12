@@ -1,6 +1,11 @@
 // Iteration #1: Find the maximum
-function maxOfTwoNumbers() {}
-
+function maxOfTwoNumbers(numberOne, numberTwo) {
+  if (numberOne > numberTwo){
+  return numberOne
+  } else {
+    return numberTwo
+  }
+}
 
 
 // Iteration #2: Find longest word
@@ -12,6 +17,7 @@ function findLongestWord() {}
 
 // Iteration #3: Calculate the sum
 const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
+
 
 function sumNumbers() {}
 
